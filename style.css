@@ -1,0 +1,13 @@
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: black 1px solid;
+  width: 85%;
+  height: 500px;
+}
