@@ -14,13 +14,19 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 85%;
+  margin: 0 auto;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
   height: 500px;
   background-color: hsl(0, 0%, 100%);
   -webkit-border-radius: 25px;
   border-radius: 25px;
   -webkit-box-shadow: 2px 7px 15px 3px rgba(94,94,94,0.26); 
   box-shadow: 2px 7px 15px 3px rgba(94,94,94,0.26);
+  z-index: 2;
 }
 
 #qr-code {
@@ -49,3 +55,4 @@ body {
   font-weight: 400;
   opacity: 60%;
 }
+
