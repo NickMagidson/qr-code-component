@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;700&display=swap');
 
 body {
   display: flex;
@@ -24,19 +24,28 @@ body {
 }
 
 #qr-code {
-  width: 85%;
-  height: 50%;
+  width: 90%;
+  height: 56%;
   -webkit-border-radius: 25px;
   border-radius: 25px;
+  /* margin-bottom: 2rem; */
 }
 
-h3 {
+.text-section {
+  padding: 1rem;
+}
+
+.title {
   text-align: center;
   font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 700;
 }
 
-p {
+.para {
   text-align: center;
   font-family: var(--font-family);
   font-size: 15px;
+  font-weight: 400;
+  opacity: 60%;
 }
